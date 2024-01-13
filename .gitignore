@@ -39,8 +39,11 @@ build/
 
 .idea/
 pom.xml
+src/main/java/matrix/workingPeoplesImitation/training
 src/main/java/matrix/workingPeoplesImitation/task_297_Serialize_and_Deserialize_Binary_Tree/
 src/main/java/matrix/workingPeoplesImitation/task_1155/
 
+
 # Needs to solve again later
 src/main/java/matrix/workingPeoplesImitation/task_334_Increasing_Triplet_Subsequence/
+src/main/java/matrix/workingPeoplesImitation/task_1711_Count_Good_Meals
