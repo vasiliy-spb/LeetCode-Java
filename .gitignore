@@ -39,6 +39,7 @@ build/
 
 .idea/
 pom.xml
+INTERESTING SOLUTIONS.md
 src/main/java/matrix/workingPeoplesImitation/training
 src/main/java/matrix/workingPeoplesImitation/task_297_Serialize_and_Deserialize_Binary_Tree/
 src/main/java/matrix/workingPeoplesImitation/task_1155/
@@ -51,3 +52,4 @@ src/main/java/matrix/workingPeoplesImitation/task_1711_Count_Good_Meals
 # Not yet decided
 src/main/java/matrix/workingPeoplesImitation/task_2947_Count_Beautiful_Substrings_I
 src/main/java/matrix/workingPeoplesImitation/task_525_Contiguous_Array
+src/main/java/matrix/workingPeoplesImitation/task_2271_Maximum_White_Tiles_Covered_by_a_Carpet
