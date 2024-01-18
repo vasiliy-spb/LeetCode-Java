@@ -1,7 +1,5 @@
 package matrix.workingPeoplesImitation.task_1456_Maximum_Number_of_Vowels_in_a_Substring_of_Given_Length;
 
-import java.util.Arrays;
-import java.util.HashSet;
 import java.util.Set;
 
 public class Solution {
