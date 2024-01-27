@@ -50,6 +50,10 @@ src/main/java/matrix/workingPeoplesImitation/task_334_Increasing_Triplet_Subsequ
 src/main/java/matrix/workingPeoplesImitation/task_1711_Count_Good_Meals
 src/main/java/matrix/workingPeoplesImitation/task_931_Minimum_Falling_Path_Sum
 
+# I haven't solved it, but I looked at the solution
+src/main/java/matrix/workingPeoplesImitation/task_576_Out_of_Boundary_Paths
+
+
 # Not yet decided
 src/main/java/matrix/workingPeoplesImitation/task_2947_Count_Beautiful_Substrings_I
 src/main/java/matrix/workingPeoplesImitation/task_525_Contiguous_Array
@@ -59,4 +63,3 @@ src/main/java/matrix/workingPeoplesImitation/task_2110_Number_of_Smooth_Descent_
 src/main/java/matrix/workingPeoplesImitation/task_110_Balanced_Binary_Tree
 src/main/java/matrix/workingPeoplesImitation/task_1239_Maximum_Length_of_a_Concatenated_String_with_Unique_Characters
 src/main/java/matrix/workingPeoplesImitation/task_1466_Reorder_Routes_to_Make_All_Paths_Lead_to_the_City_Zero
-src/main/java/matrix/workingPeoplesImitation/task_726_Number_of_Atoms
