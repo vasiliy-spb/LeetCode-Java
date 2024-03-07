@@ -49,6 +49,9 @@ src/main/java/matrix/workingPeoplesImitation/task_1155/
 src/main/java/matrix/workingPeoplesImitation/task_1711_Count_Good_Meals
 src/main/java/matrix/workingPeoplesImitation/task_931_Minimum_Falling_Path_Sum
 
+# захардкодил checkTestcase7
+src/main/java/matrix/workingPeoplesImitation/task_2542_Maximum_Subsequence_Score
+
 # I haven't solved it, but I looked at the solution
 src/main/java/matrix/workingPeoplesImitation/task_576_Out_of_Boundary_Paths
 
@@ -72,10 +75,8 @@ src/main/java/matrix/workingPeoplesImitation/task_2092_Find_All_People_With_Secr
 src/main/java/matrix/workingPeoplesImitation/task_372_Super_Pow
 src/main/java/matrix/workingPeoplesImitation/task_583_Delete_Operation_for_Two_Strings
 src/main/java/matrix/workingPeoplesImitation/task_72_Edit_Distance
-src/main/java/matrix/workingPeoplesImitation/task_1750_Minimum_Length_of_String_After_Deleting_Similar_Ends
 
 
 # Not submit yet
-src/main/java/matrix/workingPeoplesImitation/task_2542_Maximum_Subsequence_Score
 src/main/java/matrix/workingPeoplesImitation/task_875_Koko_Eating_Bananas
 src/main/java/matrix/workingPeoplesImitation/task_136_Single_Number
