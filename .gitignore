@@ -48,6 +48,7 @@ src/main/java/matrix/workingPeoplesImitation/task_1155/
 # Needs to solve again later
 src/main/java/matrix/workingPeoplesImitation/task_1711_Count_Good_Meals
 src/main/java/matrix/workingPeoplesImitation/task_931_Minimum_Falling_Path_Sum
+src/main/java/matrix/workingPeoplesImitation/task_714_Best_Time_to_Buy_and_Sell_Stock_with_Transaction_Fee
 
 # захардкодил checkTestcase7
 src/main/java/matrix/workingPeoplesImitation/task_2542_Maximum_Subsequence_Score
@@ -65,7 +66,6 @@ src/main/java/matrix/workingPeoplesImitation/task_110_Balanced_Binary_Tree
 src/main/java/matrix/workingPeoplesImitation/task_1239_Maximum_Length_of_a_Concatenated_String_with_Unique_Characters
 src/main/java/matrix/workingPeoplesImitation/task_316_Remove_Duplicate_Letters/
 src/main/java/matrix/workingPeoplesImitation/task_337_House_Robber_III/
-src/main/java/matrix/workingPeoplesImitation/task_714_Best_Time_to_Buy_and_Sell_Stock_with_Transaction_Fee
 src/main/java/matrix/workingPeoplesImitation/task_368_Largest_Divisible_Subset
 src/main/java/matrix/workingPeoplesImitation/task_1463_Cherry_Pickup_II
 src/main/java/matrix/workingPeoplesImitation/task_2402_Meeting_Rooms_III
