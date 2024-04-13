@@ -1,4 +1,4 @@
-package matrix.workingPeoplesImitation.task_48_Trapping_Rain_Water;
+package matrix.workingPeoplesImitation.task_42_Trapping_Rain_Water;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
