@@ -76,7 +76,7 @@ src/main/java/matrix/workingPeoplesImitation/task_583_Delete_Operation_for_Two_S
 src/main/java/matrix/workingPeoplesImitation/task_72_Edit_Distance
 src/main/java/matrix/workingPeoplesImitation/task_713_Subarray_Product_Less_Than_K
 src/main/java/matrix/workingPeoplesImitation/task_992_Subarrays_with_K_Different_Integers
-src/main/java/matrix/workingPeoplesImitation/task_189_Rotate_Array
+
 src/main/java/matrix/workingPeoplesImitation/task_29_Divide_Two_Integers
 src/main/java/matrix/workingPeoplesImitation/task_31_Next_Permutation
 src/main/java/matrix/workingPeoplesImitation/task_40_Combination_Sum_II
@@ -89,6 +89,8 @@ src/main/java/matrix/workingPeoplesImitation/task_978_Longest_Turbulent_Subarray
 src/main/java/matrix/workingPeoplesImitation/task_32_Longest_Valid_Parentheses
 src/main/java/matrix/workingPeoplesImitation/task_98_Validate_Binary_Search_Tree
 src/main/java/matrix/workingPeoplesImitation/task_124_Binary_Tree_Maximum_Path_Sum
+src/main/java/matrix/workingPeoplesImitation/task_135_Candy
+src/main/java/matrix/workingPeoplesImitation/task_138_Copy_List_with_Random_Pointer
 
 
 
