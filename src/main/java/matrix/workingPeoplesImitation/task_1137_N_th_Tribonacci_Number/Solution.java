@@ -5,6 +5,24 @@ import java.util.Map;
 
 public class Solution {
 
+    // my solution (24.04.2024)
+    public int tribonacci1(int n) {
+        if (n == 0) return 0;
+        if (n < 3) return 1;
+        if (n ==3) return 2;
+        int t0 = 0;
+        int t1 = 1;
+        int t2 = 1;
+        int current = 2;
+        for (int i = 4; i <= n; i++) {
+            t0 = t1;
+            t1 = t2;
+            t2 = current;
+            current = t0 + t1 + t2;
+        }
+        return current;
+    }
+
     // my solution
     public int tribonacci(int n) {
         int[] dp = new int[Math.max(n + 1,3)];
@@ -69,5 +87,33 @@ public class Solution {
         }
         return trib[n];
     }
+
+    // from walkccc.me (Approach 1: Straightforward)
+    public int tribonacci5(int n) {
+        if (n < 2)
+            return n;
+
+        int[] dp = {0, 1, 1};
+
+        for (int i = 3; i <= n; ++i) {
+            final int next = dp[0] + dp[1] + dp[2];
+            dp[0] = dp[1];
+            dp[1] = dp[2];
+            dp[2] = next;
+        }
+
+        return dp[2];
+    }
+
+    // from walkccc.me (Approach 2: Concise)
+    public int tribonacci6(int n) {
+        int[] dp = {0, 1, 1};
+
+        for (int i = 3; i <= n; ++i)
+            dp[i % 3] = dp[0] + dp[1] + dp[2];
+
+        return dp[n % 3];
+    }
+
 
 }
