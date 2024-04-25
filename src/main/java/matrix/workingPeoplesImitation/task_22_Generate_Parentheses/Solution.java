@@ -79,4 +79,25 @@ public class Solution {
         return dp.get(n);
     }
 
+    // from leetcode (https://leetcode.com/submissions/detail/1238882605/) решение https://leetcode.com/Iregor/
+    public List<String> generateParenthesis4(int n) {
+        List<String> res = new ArrayList<>();
+        generateRec(res, new StringBuilder(), 0, 0, n);
+        return res;
+    }
+
+    private void generateRec(List<String> res, StringBuilder cur, int opened, int closed, int n) {
+        if (opened == closed && n == opened) {
+            res.add(cur.toString());
+        }
+        if (opened < n) {
+            generateRec(res, cur.append('('), opened + 1, closed, n);
+            cur.deleteCharAt(cur.length() - 1);
+        }
+        if (closed < opened) {
+            generateRec(res, cur.append(')'), opened, closed + 1, n);
+            cur.deleteCharAt(cur.length() - 1);
+        }
+    }
+
 }

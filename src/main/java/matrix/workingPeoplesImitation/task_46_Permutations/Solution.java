@@ -103,4 +103,36 @@ public class Solution {
         }
         return permutations;
     }
+
+    // from leetcode (https://leetcode.com/submissions/detail/1238871694/) решение https://leetcode.com/Iregor/
+    public List<List<Integer>> permute4(int[] nums) {
+        List<List<Integer>> permutes = new ArrayList<>();
+        getPermuteRec(permutes, nums, 0);
+        return permutes;
+    }
+
+    private void getPermuteRec(List<List<Integer>> permutes, int[] nums, int p) {
+        if (p == nums.length) {
+            List<Integer> permute = new ArrayList<>();
+            for (int number : nums) {
+                permute.add(number);
+            }
+            permutes.add(permute);
+        }
+        for (int i = p; i < nums.length; i++) {
+            swap(nums, p, i);
+            getPermuteRec(permutes, nums, p + 1);
+            swap(nums, p, i);
+        }
+    }
+
+    private void swap(int[] arr, int p1, int p2) {
+        if (p1 == p2) {
+            return;
+        }
+
+        arr[p1] += arr[p2];
+        arr[p2] = arr[p1] - arr[p2];
+        arr[p1] -= arr[p2];
+    }
 }

@@ -12,4 +12,19 @@ public class Solution {
             queue.poll();
         return queue.poll();
     }
+
+    // from leetcode (https://leetcode.com/submissions/detail/1239059506/) решение https://leetcode.com/Iregor/
+    public int findKthLargest2(int[] nums, int k) {
+        PriorityQueue<Integer> heap = new PriorityQueue<>();
+        int i = 0;
+        for (; i < k && i < nums.length; i++) {
+            heap.add(nums[i]);
+        }
+        for (; i < nums.length; i++) {
+            heap.add(nums[i]);
+            heap.poll();
+        }
+        return heap.peek();
+    }
+
 }

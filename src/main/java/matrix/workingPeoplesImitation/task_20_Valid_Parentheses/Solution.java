@@ -148,4 +148,20 @@ class Solution {
         return stack.isEmpty();
     }
 
+    // from leetcode solutions (https://leetcode.com/problems/valid-parentheses/solutions/2889889/performing-with-linkedlist/)
+    public boolean isValid5(String s) {
+        LinkedList<Character> charArr = new LinkedList<>();
+        HashMap<Character, Character> parentheses = new HashMap<>();
+        parentheses.put('(', ')');
+        parentheses.put('{', '}');
+        parentheses.put('[', ']');
+
+        for (char ch: s.toCharArray()){
+            if (ch == '(' || ch == '{' || ch == '[')
+                charArr.add(ch);
+            else if (charArr.isEmpty() || ch != parentheses.get(charArr.pollLast()))
+                return false;
+        }
+        return charArr.isEmpty();
+    }
 }

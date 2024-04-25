@@ -6,6 +6,8 @@ import java.util.PriorityQueue;
 import java.util.Stack;
 
 public class Solution {
+
+    // my solution
     public int maximalRectangle(char[][] matrix) {
         int[][] suffixY = new int[matrix.length][matrix[0].length];
         for (int i = matrix.length - 1; i >= 0; i--) {
@@ -87,7 +89,7 @@ public class Solution {
         return maxArea;
     }
 
-    // from
+    // from walkccc.me
     public int maximalRectangle3(char[][] matrix) {
         if (matrix.length == 0)
             return 0;
@@ -117,6 +119,41 @@ public class Solution {
             stack.push(i);
         }
 
+        return ans;
+    }
+
+    // from leetcode solutions (approach: Monotonic stack) (https://leetcode.com/problems/maximal-rectangle/solutions/5027802/java-monotonic-stack-solution-converting-to-leetcode-84/)
+    public int maximalRectangle4(char[][] matrix) {
+        int m = matrix.length, n = matrix[0].length;
+        int[] heights = new int[n];
+        int ans = 0;
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                heights[j] = matrix[i][j] == '0' ? 0 : heights[j] + 1;
+            }
+            ans = Math.max(ans, largestRectInHistogram(heights));
+        }
+        return ans;
+    }
+
+    // https://leetcode.com/problems/largest-rectangle-in-histogram/discuss/5027623/java-monotonic-stack-solution-explaining-why-we-use-it
+    private int largestRectInHistogram(int[] heights) {
+        // Monotonic Stack Approach
+        Deque<Integer> stack = new ArrayDeque<>();
+        int n = heights.length;
+        int ans = 0;
+        stack.offerFirst(-1);
+        for (int i = 0; i < n; i++) {
+            while (stack.peekFirst() != -1 && heights[stack.peekFirst()] > heights[i]) {
+                int ind = stack.pollFirst();
+                ans = Math.max(ans, heights[ind] * (i - stack.peekFirst() - 1));
+            }
+            stack.offerFirst(i);
+        }
+        while (stack.peekFirst() != -1) {
+            int ind = stack.pollFirst();
+            ans = Math.max(ans, heights[ind] * (n - stack.peekFirst() - 1));
+        }
         return ans;
     }
 }

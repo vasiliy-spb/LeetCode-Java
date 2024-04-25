@@ -74,4 +74,39 @@ public class Solution {
 
         return isExist;
     }
+
+    // from leetcode (https://leetcode.com/submissions/detail/1238903596/) решение https://leetcode.com/Iregor/
+    public boolean exist3(char[][] board, String word) {
+        for (int i = 0; i < board.length; i++) {
+            for (int j = 0; j < board[0].length; j++) {
+                if (board[i][j] == word.charAt(0)) {
+                    if (backTrack(board, i, j, word, 0)) {
+                        return true;
+                    }
+                }
+            }
+        }
+        return false;
+    }
+
+    private boolean backTrack(char[][] board, int i, int j, String word, int k) {
+        if (word.length() == k) {
+            return true;
+        }
+        if (i < 0 || i >= board.length || j < 0 || j >= board[0].length) {
+            return false;
+        }
+        boolean success = false;
+        if (board[i][j] == word.charAt(k)) {
+            char tmp = board[i][j];
+            board[i][j] = ' ';
+            success = backTrack(board, i-1, j, word, k + 1)
+                    || backTrack(board, i, j-1, word, k + 1)
+                    || backTrack(board, i+1, j, word, k + 1)
+                    || backTrack(board, i, j+1, word, k + 1);
+            board[i][j] = tmp;
+        }
+        return success;
+    }
+
 }
