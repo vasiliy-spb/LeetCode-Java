@@ -49,6 +49,7 @@ src/main/java/matrix/workingPeoplesImitation/task_1155/
 src/main/java/matrix/workingPeoplesImitation/task_1711_Count_Good_Meals
 src/main/java/matrix/workingPeoplesImitation/task_931_Minimum_Falling_Path_Sum
 src/main/java/matrix/workingPeoplesImitation/task_714_Best_Time_to_Buy_and_Sell_Stock_with_Transaction_Fee
+src/main/java/matrix/workingPeoplesImitation/task_322_Coin_Change
 
 # захардкодил checkTestcase7
 src/main/java/matrix/workingPeoplesImitation/task_2542_Maximum_Subsequence_Score
