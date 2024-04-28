@@ -50,6 +50,7 @@ src/main/java/matrix/workingPeoplesImitation/task_1711_Count_Good_Meals
 src/main/java/matrix/workingPeoplesImitation/task_931_Minimum_Falling_Path_Sum
 src/main/java/matrix/workingPeoplesImitation/task_714_Best_Time_to_Buy_and_Sell_Stock_with_Transaction_Fee
 src/main/java/matrix/workingPeoplesImitation/task_322_Coin_Change
+src/main/java/matrix/workingPeoplesImitation/task_1289_Minimum_Falling_Path_Sum_II
 
 # захардкодил checkTestcase7
 src/main/java/matrix/workingPeoplesImitation/task_2542_Maximum_Subsequence_Score
@@ -93,7 +94,7 @@ src/main/java/matrix/workingPeoplesImitation/task_124_Binary_Tree_Maximum_Path_S
 src/main/java/matrix/workingPeoplesImitation/task_135_Candy
 src/main/java/matrix/workingPeoplesImitation/task_138_Copy_List_with_Random_Pointer
 src/main/java/matrix/workingPeoplesImitation/task_44_Wildcard_Matching
-
+src/main/java/matrix/workingPeoplesImitation/task_51_N_Queens
 
 
 # Not submit yet
