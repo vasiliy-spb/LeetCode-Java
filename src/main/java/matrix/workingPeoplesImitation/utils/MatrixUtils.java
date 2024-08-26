@@ -40,6 +40,26 @@ public class MatrixUtils {
         }
     }
 
+    // печатает двумерную матрицу в консоль
+    public static void printMatrix(long[][] matrix) {
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                System.out.print(matrix[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+
+    // печатает двумерную матрицу в консоль
+    public static void printMatrix(long[][] matrix, String delimiter) {
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                System.out.print(matrix[i][j] + delimiter);
+            }
+            System.out.println();
+        }
+    }
+
     // читает двумерную матрицу из файла и возвращает её в виде массива int[][]
     public static int[][] readMatrixFromFile(String fileName) {
         StringBuilder content = new StringBuilder();
