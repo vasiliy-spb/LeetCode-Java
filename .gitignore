@@ -108,6 +108,7 @@ src/main/java/matrix/workingPeoplesImitation/task_306_Additive_Number
 src/main/java/matrix/workingPeoplesImitation/task_420_Strong_Password_Checker
 src/main/java/matrix/workingPeoplesImitation/task_417_Pacific_Atlantic_Water_Flow
 src/main/java/matrix/workingPeoplesImitation/task_2812_Find_the_Safest_Path_in_a_Grid
+src/main/java/matrix/workingPeoplesImitation/task_456_132_Pattern
 
 
 # Not submit yet
@@ -128,3 +129,5 @@ src/main/java/matrix/workingPeoplesImitation/task_1530_Number_of_Good_Leaf_Nodes
 
 # переписал решение от GPT
 src/main/java/matrix/workingPeoplesImitation/task_2392_Build_a_Matrix_With_Conditions
+
+src/main/java/matrix/workingPeoplesImitation/task_2536_Increment_Submatrices_by_One/topic.txt
