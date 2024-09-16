@@ -36,7 +36,6 @@ build/
 
 ### Mac OS ###
 .DS_Store
-
 .idea/
 pom.xml
 INTERESTING SOLUTIONS.md
@@ -89,7 +88,7 @@ src/main/java/matrix/workingPeoplesImitation/task_32_Longest_Valid_Parentheses
 src/main/java/matrix/workingPeoplesImitation/task_98_Validate_Binary_Search_Tree
 src/main/java/matrix/workingPeoplesImitation/task_124_Binary_Tree_Maximum_Path_Sum
 src/main/java/matrix/workingPeoplesImitation/task_135_Candy
-src/main/java/matrix/workingPeoplesImitation/task_138_Copy_List_with_Random_Pointer
+# src/main/java/matrix/workingPeoplesImitation/task_138_Copy_List_with_Random_Pointer
 src/main/java/matrix/workingPeoplesImitation/task_44_Wildcard_Matching
 src/main/java/matrix/workingPeoplesImitation/task_51_N_Queens
 src/main/java/matrix/workingPeoplesImitation/task_834_Sum_of_Distances_in_Tree
@@ -111,6 +110,8 @@ src/main/java/matrix/workingPeoplesImitation/task_2812_Find_the_Safest_Path_in_a
 src/main/java/matrix/workingPeoplesImitation/task_456_132_Pattern
 src/main/java/matrix/workingPeoplesImitation/task_877_Stone_Game
 src/main/java/matrix/workingPeoplesImitation/task_659_Split_Array_into_Consecutive_Subsequences
+src/main/java/matrix/workingPeoplesImitation/task_503_Next_Greater_Element_II
+src/main/java/matrix/workingPeoplesImitation/task_1248_Count_Number_of_Nice_Subarrays
 
 
 # Not submit yet
