@@ -1,10 +1,21 @@
 package matrix.workingPeoplesImitation.task_179_Largest_Number;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 // my solution
 public class Solution {
 
+    // accepted
+    public String largestNumber2(int[] nums) {
+        return Arrays.stream(nums)
+                .mapToObj(String::valueOf)
+                .sorted((a, b) -> (b + a).compareTo(a + b))
+                .collect(Collectors.joining())
+                .replaceFirst("^0+(?!$)", "");
+    }
+
+    // accepted
     public String largestNumber(int[] nums) {
         Set<String> set = new TreeSet<>((s1, s2) -> {
             if (s1.equals(s2)) {
