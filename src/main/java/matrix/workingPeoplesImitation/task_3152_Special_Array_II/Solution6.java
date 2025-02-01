@@ -1,0 +1,29 @@
+package matrix.workingPeoplesImitation.task_3152_Special_Array_II;
+
+// from leetcode editorial (Approach 2: Prefix Sum)
+public class Solution6 {
+    public boolean[] isArraySpecial(int[] nums, int[][] queries) {
+        boolean[] ans = new boolean[queries.length];
+        int[] prefix = new int[nums.length];
+        prefix[0] = 0;
+
+        for (int i = 1; i < nums.length; i++) {
+            if (nums[i] % 2 == nums[i - 1] % 2) {
+                // new violative index found
+                prefix[i] = prefix[i - 1] + 1;
+            } else {
+                prefix[i] = prefix[i - 1];
+            }
+        }
+
+        for (int i = 0; i < queries.length; i++) {
+            int[] query = queries[i];
+            int start = query[0];
+            int end = query[1];
+
+            ans[i] = prefix[end] - prefix[start] == 0;
+        }
+
+        return ans;
+    }
+}
