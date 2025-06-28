@@ -1,0 +1,165 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+Must_know_ideas.md
+
+
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+.idea/
+pom.xml
+INTERESTING SOLUTIONS.md
+Next_to_solve.txt
+src/main/java/matrix/workingPeoplesImitation/training
+src/main/java/matrix/workingPeoplesImitation/task_297_Serialize_and_Deserialize_Binary_Tree/
+src/main/java/matrix/workingPeoplesImitation/task_1155/
+
+
+# Needs to solve again later
+src/main/java/matrix/workingPeoplesImitation/task_1711_Count_Good_Meals
+src/main/java/matrix/workingPeoplesImitation/task_931_Minimum_Falling_Path_Sum
+src/main/java/matrix/workingPeoplesImitation/task_714_Best_Time_to_Buy_and_Sell_Stock_with_Transaction_Fee
+src/main/java/matrix/workingPeoplesImitation/task_322_Coin_Change
+src/main/java/matrix/workingPeoplesImitation/task_1289_Minimum_Falling_Path_Sum_II
+
+# захардкодил checkTestcase7
+src/main/java/matrix/workingPeoplesImitation/task_2542_Maximum_Subsequence_Score
+
+# I haven't solved it, but I looked at the solution
+src/main/java/matrix/workingPeoplesImitation/task_576_Out_of_Boundary_Paths
+
+
+# Haven't solved these problems yet
+src/main/java/matrix/workingPeoplesImitation/task_15_3Sum
+src/main/java/matrix/workingPeoplesImitation/task_29_Divide_Two_Integers
+src/main/java/matrix/workingPeoplesImitation/task_31_Next_Permutation
+src/main/java/matrix/workingPeoplesImitation/task_32_Longest_Valid_Parentheses
+src/main/java/matrix/workingPeoplesImitation/task_37_Sudoku_Solver
+src/main/java/matrix/workingPeoplesImitation/task_44_Wildcard_Matching
+src/main/java/matrix/workingPeoplesImitation/task_51_N_Queens
+src/main/java/matrix/workingPeoplesImitation/task_65_Valid_Number
+src/main/java/matrix/workingPeoplesImitation/task_72_Edit_Distance
+src/main/java/matrix/workingPeoplesImitation/task_84_Largest_Rectangle_in_Histogram
+src/main/java/matrix/workingPeoplesImitation/task_98_Validate_Binary_Search_Tree
+src/main/java/matrix/workingPeoplesImitation/task_110_Balanced_Binary_Tree
+src/main/java/matrix/workingPeoplesImitation/task_124_Binary_Tree_Maximum_Path_Sum
+src/main/java/matrix/workingPeoplesImitation/task_135_Candy
+# src/main/java/matrix/workingPeoplesImitation/task_138_Copy_List_with_Random_Pointer
+src/main/java/matrix/workingPeoplesImitation/task_139_Word_Break
+src/main/java/matrix/workingPeoplesImitation/task_168_Excel_Sheet_Column_Title/
+src/main/java/matrix/workingPeoplesImitation/task_171_Excel_Sheet_Column_Number/
+src/main/java/matrix/workingPeoplesImitation/task_201_Bitwise_AND_of_Numbers_Range
+src/main/java/matrix/workingPeoplesImitation/task_212_Word_Search_II
+src/main/java/matrix/workingPeoplesImitation/task_306_Additive_Number
+src/main/java/matrix/workingPeoplesImitation/task_316_Remove_Duplicate_Letters/
+src/main/java/matrix/workingPeoplesImitation/task_337_House_Robber_III/
+src/main/java/matrix/workingPeoplesImitation/task_368_Largest_Divisible_Subset
+src/main/java/matrix/workingPeoplesImitation/task_372_Super_Pow
+src/main/java/matrix/workingPeoplesImitation/task_395_Longest_Substring_with_At_Least_K_Repeating_Characters/
+src/main/java/matrix/workingPeoplesImitation/task_402_Remove_K_Digits
+#src/main/java/matrix/workingPeoplesImitation/task_417_Pacific_Atlantic_Water_Flow
+src/main/java/matrix/workingPeoplesImitation/task_420_Strong_Password_Checker
+src/main/java/matrix/workingPeoplesImitation/task_424_Longest_Repeating_Character_Replacement/
+src/main/java/matrix/workingPeoplesImitation/task_456_132_Pattern
+src/main/java/matrix/workingPeoplesImitation/task_503_Next_Greater_Element_II
+src/main/java/matrix/workingPeoplesImitation/task_523_Continuous_Subarray_Sum
+src/main/java/matrix/workingPeoplesImitation/task_560_Subarray_Sum_Equals_K
+src/main/java/matrix/workingPeoplesImitation/task_583_Delete_Operation_for_Two_Strings
+src/main/java/matrix/workingPeoplesImitation/task_659_Split_Array_into_Consecutive_Subsequences
+# src/main/java/matrix/workingPeoplesImitation/task_676_Implement_Magic_Dictionary/
+src/main/java/matrix/workingPeoplesImitation/task_713_Subarray_Product_Less_Than_K
+# src/main/java/matrix/workingPeoplesImitation/task_731_My_Calendar_II
+src/main/java/matrix/workingPeoplesImitation/task_834_Sum_of_Distances_in_Tree
+src/main/java/matrix/workingPeoplesImitation/task_846_Hand_of_Straights
+src/main/java/matrix/workingPeoplesImitation/task_857_Minimum_Cost_to_Hire_K_Workers
+src/main/java/matrix/workingPeoplesImitation/task_862_Shortest_Subarray_with_Sum_at_Least_K
+src/main/java/matrix/workingPeoplesImitation/task_877_Stone_Game
+#src/main/java/matrix/workingPeoplesImitation/task_978_Longest_Turbulent_Subarray
+src/main/java/matrix/workingPeoplesImitation/task_992_Subarrays_with_K_Different_Integers
+src/main/java/matrix/workingPeoplesImitation/task_1239_Maximum_Length_of_a_Concatenated_String_with_Unique_Characters
+src/main/java/matrix/workingPeoplesImitation/task_1248_Count_Number_of_Nice_Subarrays
+src/main/java/matrix/workingPeoplesImitation/task_1338_Reduce_Array_Size_to_The_Half
+src/main/java/matrix/workingPeoplesImitation/task_1463_Cherry_Pickup_II
+src/main/java/matrix/workingPeoplesImitation/task_1671_Minimum_Number_of_Removals_to_Make_Mountain_Array
+src/main/java/matrix/workingPeoplesImitation/task_1707_Maximum_XOR_With_an_Element_From_Array
+src/main/java/matrix/workingPeoplesImitation/task_1915_Number_of_Wonderful_Substrings
+src/main/java/matrix/workingPeoplesImitation/task_2092_Find_All_People_With_Secret/
+src/main/java/matrix/workingPeoplesImitation/task_2110_Number_of_Smooth_Descent_Periods_of_a_Stock
+src/main/java/matrix/workingPeoplesImitation/task_2271_Maximum_White_Tiles_Covered_by_a_Carpet
+src/main/java/matrix/workingPeoplesImitation/task_2276_Count_Integers_in_Intervals/
+src/main/java/matrix/workingPeoplesImitation/task_2402_Meeting_Rooms_III
+src/main/java/matrix/workingPeoplesImitation/task_2812_Find_the_Safest_Path_in_a_Grid
+src/main/java/matrix/workingPeoplesImitation/task_2947_Count_Beautiful_Substrings_I
+src/main/java/matrix/workingPeoplesImitation/task_3286_Find_a_Safe_Walk_Through_a_Grid
+src/main/java/matrix/workingPeoplesImitation/task_2780_Minimum_Index_of_a_Valid_Split
+src/main/java/matrix/workingPeoplesImitation/task_2551_Put_Marbles_in_Bags
+src/main/java/matrix/workingPeoplesImitation/task_1111_Maximum_Nesting_Depth_of_Two_Valid_Parentheses_Strings
+src/main/java/matrix/workingPeoplesImitation/task_1863_Sum_of_All_Subset_XOR_Totals
+src/main/java/matrix/workingPeoplesImitation/task_416_Partition_Equal_Subset_Sum
+src/main/java/matrix/workingPeoplesImitation/task_3292_Minimum_Number_of_Valid_Strings_to_Form_Target_II
+src/main/java/matrix/workingPeoplesImitation/task_1931_Painting_a_Grid_With_Three_Different_Colors
+src/main/java/matrix/workingPeoplesImitation/task_1590_Make_Sum_Divisible_by_P
+src/main/java/matrix/workingPeoplesImitation/task_1521_Find_a_Value_of_a_Mysterious_Function_Closest_to_Target
+
+
+
+# Not submit yet
+
+
+
+
+# Сохранил чужое решение
+src/main/java/matrix/workingPeoplesImitation/task_108_Convert_Sorted_Array_to_Binary_Search_Tree
+src/main/java/matrix/workingPeoplesImitation/task_673_Number_of_Longest_Increasing_Subsequence
+#src/main/java/matrix/workingPeoplesImitation/task_148_Sort_List
+src/main/java/matrix/workingPeoplesImitation/task_427_Construct_Quad_Tree
+src/main/java/matrix/workingPeoplesImitation/task_406_Queue_Reconstruction_by_Height
+
+
+# дорешать
+src/main/java/matrix/workingPeoplesImitation/task_1530_Number_of_Good_Leaf_Nodes_Pairs/
+src/main/java/matrix/workingPeoplesImitation/task_3306_Count_of_Substrings_Containing_Every_Vowel_and_K_Consonants_II
+src/main/java/matrix/workingPeoplesImitation/task_2850_Minimum_Moves_to_Spread_Stones_Over_Grid
+
+# переписал решение от GPT
+src/main/java/matrix/workingPeoplesImitation/task_2392_Build_a_Matrix_With_Conditions
+
+src/main/java/matrix/workingPeoplesImitation/task_2536_Increment_Submatrices_by_One/topic.txt
+
+
+# Draft
+src/main/java/matrix/workingPeoplesImitation/task_2375_Construct_Smallest_Number_From_DI_String/DraftSolution1.java
+src/main/java/matrix/workingPeoplesImitation/task_2375_Construct_Smallest_Number_From_DI_String/DraftSolution2.java
+src/main/java/matrix/workingPeoplesImitation/task_2375_Construct_Smallest_Number_From_DI_String/DraftSolution3.java
