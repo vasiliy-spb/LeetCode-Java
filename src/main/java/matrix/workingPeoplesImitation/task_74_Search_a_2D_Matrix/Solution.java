@@ -1,5 +1,6 @@
 package matrix.workingPeoplesImitation.task_74_Search_a_2D_Matrix;
 
+// my solution
 public class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
         int row = binarySearchRow(matrix, target);
