@@ -3,6 +3,7 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 Must_know_ideas.md
+study_plan.txt
 
 
 ### IntelliJ IDEA ###
