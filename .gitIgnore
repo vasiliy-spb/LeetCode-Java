@@ -154,6 +154,8 @@ src/main/java/matrix/workingPeoplesImitation/task_406_Queue_Reconstruction_by_He
 src/main/java/matrix/workingPeoplesImitation/task_1530_Number_of_Good_Leaf_Nodes_Pairs/
 src/main/java/matrix/workingPeoplesImitation/task_3306_Count_of_Substrings_Containing_Every_Vowel_and_K_Consonants_II
 src/main/java/matrix/workingPeoplesImitation/task_2850_Minimum_Moves_to_Spread_Stones_Over_Grid
+src/main/java/matrix/workingPeoplesImitation/task_2411_Smallest_Subarrays_With_Maximum_Bitwise_OR
+src/main/java/matrix/workingPeoplesImitation/task_2561_Rearranging_Fruits
 
 # переписал решение от GPT
 src/main/java/matrix/workingPeoplesImitation/task_2392_Build_a_Matrix_With_Conditions
