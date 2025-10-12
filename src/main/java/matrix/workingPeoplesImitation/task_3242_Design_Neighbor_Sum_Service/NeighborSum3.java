@@ -1,5 +1,6 @@
 package matrix.workingPeoplesImitation.task_3242_Design_Neighbor_Sum_Service;
 
+// from leetcode code sample (1)
 public class NeighborSum3 {
     int[][] grid;
     int len;
