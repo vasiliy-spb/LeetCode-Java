@@ -1,0 +1,37 @@
+package matrix.workingPeoplesImitation.task_1807_Evaluate_the_Bracket_Pairs_of_a_String;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+// from leetcode editorial (Approach: Hash Table)
+public class Solution2 {
+    public String evaluate(String s, List<List<String>> knowledge) {
+        Map<String, String> dict = new HashMap<>();
+        for (List<String> kd : knowledge) {
+            dict.put(kd.get(0), kd.get(1));
+        }
+        boolean addKey = false;
+        StringBuilder key = new StringBuilder();
+        StringBuilder res = new StringBuilder();
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if (c == '(') {
+                addKey = true;
+            } else if (c == ')') {
+                if (dict.containsKey(key.toString())) {
+                    res.append(dict.get(key.toString()));
+                } else {
+                    res.append('?');
+                }
+                addKey = false;
+                key.setLength(0);
+            } else if (addKey) {
+                key.append(c);
+            } else {
+                res.append(c);
+            }
+        }
+        return res.toString();
+    }
+}
